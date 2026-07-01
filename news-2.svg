@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12070a"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </linearGradient>
+    <linearGradient id="redBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e82127"/>
+      <stop offset="100%" stop-color="#ff5b62"/>
+    </linearGradient>
+    <pattern id="grid2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg2)"/>
+  <rect width="800" height="450" fill="url(#grid2)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="60" y="62" font-size="12" font-weight="700" letter-spacing="4" fill="#e82127">ENGINEERING - DESIGN SYSTEM</text>
+    <line x1="60" y1="76" x2="160" y2="76" stroke="#e82127" stroke-width="1.5"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="130" font-size="46" font-weight="800" letter-spacing="-0.5">Tokens. Motion.</text>
+    <text x="60" y="180" font-size="46" font-weight="200" letter-spacing="-0.5" font-style="italic">A calmer dark.</text>
+  </g>
+  <g transform="translate(60,210)" font-family="Helvetica, Arial, sans-serif">
+    <rect width="180" height="30" rx="15" fill="#e82127"/>
+    <text x="90" y="20" font-size="13" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">VERSION 2.0 - 2025</text>
+  </g>
+  <g transform="translate(60,280)">
+    <text x="0" y="-10" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#ffffff" opacity="0.5">COLOR - TOKENS</text>
+    <g>
+      <rect x="0" y="0" width="34" height="34" fill="#e82127"/>
+      <rect x="38" y="0" width="34" height="34" fill="#ffffff" opacity="0.92"/>
+      <rect x="76" y="0" width="34" height="34" fill="#444444"/>
+      <rect x="114" y="0" width="34" height="34" fill="#1a0608" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+      <rect x="152" y="0" width="34" height="34" fill="#ff5b62"/>
+      <rect x="190" y="0" width="34" height="34" fill="#0a0a0a" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+    </g>
+    <g font-family="monospace" font-size="9" fill="#ffffff" opacity="0.55">
+      <text x="0" y="48">--red-500</text>
+      <text x="38" y="48">--ink-0</text>
+      <text x="76" y="48">--ink-7</text>
+      <text x="114" y="48">--bg-2</text>
+      <text x="152" y="48">--red-400</text>
+      <text x="190" y="48">--bg-0</text>
+    </g>
+  </g>
+  <g transform="translate(500,90)">
+    <rect x="0" y="0" width="240" height="180" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.18"/>
+    <text x="14" y="22" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#ffffff" opacity="0.55">EASING - CURVES</text>
+    <g stroke="#ffffff" stroke-width="0.5" opacity="0.08">
+      <line x1="14" y1="60" x2="226" y2="60"/>
+      <line x1="14" y1="100" x2="226" y2="100"/>
+      <line x1="14" y1="140" x2="226" y2="140"/>
+    </g>
+    <path d="M 14 160 Q 60 160 90 130 T 180 50 L 226 30" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 14 160 Q 70 110 120 90 T 226 36" fill="none" stroke="url(#redBar)" stroke-width="2.4"/>
+    <g font-family="monospace" font-size="9" fill="#ffffff" opacity="0.5">
+      <text x="14" y="174">0ms</text>
+      <text x="210" y="174">240ms</text>
+      <text x="226" y="20" text-anchor="end">y - 1.0</text>
+    </g>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff" opacity="0.5" font-size="11">
+    <text x="60" y="408">DOCS.JINGRUIYT.COM/DS</text>
+    <text x="740" y="408" text-anchor="end">28 - SEP - 2025</text>
+  </g>
+  <g transform="translate(720,40)" font-family="Helvetica, Arial, sans-serif">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#e82127" stroke-width="1.5"/>
+    <text x="0" y="4" font-size="11" font-weight="800" fill="#e82127" text-anchor="middle">v2</text>
+  </g>
+</svg>

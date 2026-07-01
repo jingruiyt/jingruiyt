@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="55%" stop-color="#1a0608"/>
+      <stop offset="100%" stop-color="#2a0a0d"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e82127" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e82127" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#e82127" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e82127" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e82127" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dot1" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg1)"/>
+  <rect width="800" height="450" fill="url(#dot1)"/>
+  <ellipse cx="640" cy="120" rx="220" ry="160" fill="url(#spot)"/>
+  <g stroke="#e82127" stroke-width="1" fill="none" opacity="0.18">
+    <line x1="0" y1="430" x2="800" y2="120"/>
+    <line x1="0" y1="450" x2="800" y2="140"/>
+  </g>
+  <g font-family="Georgia, serif" fill="#ffffff">
+    <text x="60" y="240" font-size="180" font-weight="900" opacity="0.08">Q3</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="60" y="70" width="14" height="14" fill="#e82127"/>
+    <text x="86" y="82" font-size="14" font-weight="700" letter-spacing="3" fill="#e82127">QUARTERLY RELEASE - 2025</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="180" font-size="62" font-weight="800" letter-spacing="-1">Six apps,</text>
+    <text x="60" y="248" font-size="62" font-weight="300" letter-spacing="-1" font-style="italic">one rhythm.</text>
+  </g>
+  <rect x="60" y="282" width="360" height="2" fill="url(#redGlow)"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff" font-size="13" font-weight="600">
+    <g transform="translate(60,310)">
+      <rect width="118" height="32" rx="16" fill="none" stroke="#e82127" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="4" fill="#e82127"/>
+      <text x="30" y="21">TrailTrace</text>
+    </g>
+    <g transform="translate(186,310)">
+      <rect width="124" height="32" rx="16" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.6"/>
+      <circle cx="16" cy="16" r="4" fill="#ffffff"/>
+      <text x="30" y="21">CurioVault</text>
+    </g>
+    <g transform="translate(318,310)">
+      <rect width="124" height="32" rx="16" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.6"/>
+      <circle cx="16" cy="16" r="4" fill="#ffffff"/>
+      <text x="30" y="21">MuseCatch</text>
+    </g>
+    <g transform="translate(450,310)">
+      <rect width="100" height="32" rx="16" fill="#e82127"/>
+      <circle cx="16" cy="16" r="4" fill="#ffffff"/>
+      <text x="30" y="21" fill="#ffffff">+3 more</text>
+    </g>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff" opacity="0.55" font-size="12">
+    <text x="60" y="408">12 - OCT - 2025</text>
+    <text x="660" y="408">vol. 03</text>
+  </g>
+  <g transform="translate(640,90)" font-family="Helvetica, Arial, sans-serif">
+    <rect x="-10" y="-10" width="120" height="120" fill="none" stroke="#e82127" stroke-width="1" opacity="0.4"/>
+    <text x="50" y="40" font-size="12" fill="#e82127" font-weight="700" letter-spacing="2" text-anchor="middle">RELEASES</text>
+    <text x="50" y="88" font-size="44" fill="#ffffff" font-weight="800" text-anchor="middle">28</text>
+  </g>
+</svg>

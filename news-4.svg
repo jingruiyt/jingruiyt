@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060606"/>
+      <stop offset="60%" stop-color="#180508"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#e82127"/>
+      <stop offset="100%" stop-color="#ff7a82"/>
+    </linearGradient>
+    <linearGradient id="barGradDim" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="boltGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7a82" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff7a82" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg4)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="60" y="62" font-size="12" font-weight="700" letter-spacing="4" fill="#e82127">SPEAKING - DROIDCON LONDON</text>
+    <line x1="60" y1="76" x2="240" y2="76" stroke="#e82127" stroke-width="1.5"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="180" font-size="120" font-weight="900" letter-spacing="-3">200</text>
+    <text x="280" y="180" font-size="44" font-weight="300" font-style="italic">ms</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="60" y="216" font-size="14" letter-spacing="3" fill="#e82127" font-weight="700">ANDROID COLD-START</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="60" y="266" font-size="32" font-weight="800" letter-spacing="-0.5">It is not the framework.</text>
+    <text x="60" y="302" font-size="32" font-weight="200" font-style="italic">It is the build graph.</text>
+  </g>
+  <g transform="translate(60,340)">
+    <text x="0" y="-8" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#ffffff" opacity="0.5">BENCHMARK - ms</text>
+    <line x1="0" y1="0" x2="680" y2="0" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+    <g transform="translate(0,10)">
+      <text x="0" y="14" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.6">Industry avg</text>
+      <rect x="100" y="2" width="560" height="14" fill="url(#barGradDim)"/>
+      <text x="668" y="14" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff" opacity="0.6">~1200</text>
+    </g>
+    <g transform="translate(0,36)">
+      <text x="0" y="14" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#ffffff">Jingrui - v3</text>
+      <rect x="100" y="2" width="93" height="14" fill="url(#barGrad)"/>
+      <text x="200" y="14" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#e82127" font-weight="700">200</text>
+    </g>
+  </g>
+  <g transform="translate(620,90)">
+    <circle cx="60" cy="60" r="100" fill="url(#boltGlow)"/>
+    <path d="M 70 0 L 30 70 L 60 70 L 45 120 L 90 50 L 62 50 Z" fill="#e82127" stroke="#ffffff" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(420,18)" font-family="monospace" font-size="11">
+    <rect x="0" y="0" width="180" height="64" rx="4" fill="#ffffff" opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="10" y="18" fill="#888888">// build.gradle.kts</text>
+    <text x="10" y="34" fill="#e82127">tasks.named("preBuild")</text>
+    <text x="10" y="48" fill="#ffffff" opacity="0.75">.configureEach {</text>
+    <text x="10" y="62" fill="#ffffff" opacity="0.75">  dependsOn(cacheWarm)</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#ffffff" opacity="0.5" font-size="11">
+    <text x="60" y="428">22 - AUG - 2025</text>
+    <text x="740" y="428" text-anchor="end">DROIDCON - LDN</text>
+  </g>
+</svg>
